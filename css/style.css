@@ -22,9 +22,41 @@ a {
   color: white;
 }
 
+
 ul {
   list-style: none;
 }
+
+p{
+  margin-bottom: 10px;
+}
+.btn{
+  display: inline-block;
+  padding: 15px 25px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 14px;
+}
+.btn-primary{
+  background: white;
+  color: #222;
+}
+.btn-primary:hover{
+  background:#222;
+  color:white;
+}
+.my-10{
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
 
 /* Header : */
 .header {
@@ -61,4 +93,155 @@ ul {
 
 .active{
   background-color: #444;
+}
+
+/* vp */
+.vp{ 
+  height:700px;
+  background: url(../images/frame.jpg) center center/cover;
+  /* background-position: center center ;
+  background-size:cover; */
+  text-align: center;
+}
+.vp-content{
+  display: block;
+  margin: auto;
+  padding-top: 170px;
+  max-width: 500px;
+  color: white;
+}
+.vp-content h1{
+    font-size: 50px;
+}
+.separator{
+  background: #111;
+  height: 10px;
+  width: 100px;
+  margin: 20px auto;
+}
+.vp-content p{
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  line-height: 1.9em;
+}
+.features{
+  padding: 100px 0 100px 0;
+  text-align: center;
+  overflow: auto;
+}
+.container{
+  max-width: 1000px;
+  display: block;
+  margin: auto;
+}
+.feature{
+  float: left;
+  width: 50%;
+
+}
+h2{
+  margin-bottom: 20px;
+}
+p{
+  margin-bottom: 10px;
+}
+
+.person{
+  height: 500px;
+  background: url(../images/person-1.jpg) center center / cover;
+}
+ 
+.reservation{
+  padding: 100px 0px 100px 0px;
+  text-align: center;}
+  .btn-dark{
+    background: #222;
+    color: white;
+  }
+  .my-20{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  footer{
+    background: #222;
+    color: white;
+    padding: 30px 0px 30px 0px;
+    text-align: center;
+  }
+
+
+
+  /** pour where.html  */
+  .where{
+    padding: 180px 0px 100px 0px;
+    overflow: auto;
+    min-height: 100vh;
+  }
+  .where-img{
+    float: left;
+    width: 45%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  .where-text{
+    float: right;
+    width: 50%;
+  }
+  .underline{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  .chip{
+    display: inline-block;
+    width: 35px;
+    border-radius: 50%;
+    
+    color: white;
+    text-align: center;
+  }
+  .chip-purple{
+    background: #be418c;
+  }
+  .chip-brown{
+    background: #8c5e24;
+  }
+
+
+
+
+
+/** pour contact.html */
+  .contact{
+    padding: 180px 0px 100px 0px;
+    min-height: 100vh;
+
+  }
+
+  .contact-form-container{
+    max-width: 600px;
+    margin: auto;
+    
+  }
+  form{
+    min-height: 80px;
+  }
+  .contact-form-container form label {
+    display: block;
+    font-weight: 700;}
+    
+.contact-form-container form input, textarea {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ddd;
+border-radius: 3px;}
+
+/** card */
+
+.zoom {
+  transition: 0.7s ease;
+}
+
+  .zoom:hover {
+    transform: scale(1.1);
 }
